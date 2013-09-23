@@ -28,8 +28,9 @@ Running the program
 
 To run the project, navigate to the directory where you have the compiled class files and run the following at the terminal:
 
+```
 > java -cp .:jgroups-3.2.7.Final.jar VSynchrony [process id] [number of clients] [server port number]
-
+```
 Again, the assumption is that you have the JGroups jar archive in the same directory from where you are trying to run the program.
 
 Caveats
@@ -38,10 +39,12 @@ Caveats
 This program requires an 'index.properties' file which the stock exchange server will read upon starting, which is not included here. You will have
 to include the file for the program to run correctly. The format of the 'index.properties' file is as follows:
 
+```
 > [symbol] [name]
 > GOOG Google
 > AMZN Amazon
 > AAPL Apple
+```
 
 Wiki
 ====
